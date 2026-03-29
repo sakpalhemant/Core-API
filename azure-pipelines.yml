@@ -21,4 +21,5 @@ steps:
     containerRegistry: 'docker-sakpalhemant'
     repository: 'sakpalhemant/core-api'
     command: 'buildAndPush'
+    buildContext: ' .'
     Dockerfile: '**/Dockerfile'
